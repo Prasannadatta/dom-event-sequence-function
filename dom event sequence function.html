@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Enter your name: <input type="text" id="fname" onkeydown="fun1()" onkeypress="fun2()" onblur="fun3()" onfocusout="fun4()" onfocusin="fun5" >
+
+<p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+<script>
+
+function fun1() {
+ console.log("onkeydown is triggered");
+}
+
+function fun2() {
+ console.log("onkeypress triggered");
+}
+
+function fun3() {
+  console.log("onblur triggered");
+}
+
+function fun4() {
+  console.log("onfocusout triggered");
+}
+
+function fun5() {
+  console.log("onfocusin triggered");
+}
+
+
+
+</script>
+
+</body>
+</html>
